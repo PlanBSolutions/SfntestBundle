@@ -1,0 +1,22 @@
+{
+	"name": "planb/sfntest-bundle",
+	"description": "Test Bundle for Studio49",
+	"type": "symfony-bundle",
+	"minimum-stability":"dev",
+    "authors": [
+        {
+            "name": "Philipp Janke",
+            "email": "philipp.janke@planb.solutions"
+        }
+    ]
+    "autoload": {
+        "psr-4": {
+            "Planb\\SfntestBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Planb\\SfntestBundle\\Tests\\": "tests/"
+        }
+    }
+}
