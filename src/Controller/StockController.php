@@ -11,15 +11,21 @@ use Planb\SfntestBundle\Entity\StockManager;
 use Planb\SfntestBundle\Form\StockItemType;
 use Planb\SfntestBundle\Services\StockManagerService;
 
-class StockController extends AbstractController
+class StockController
 {
+    private $twig;
+
+    public function __construct(Environment $twig)
+    {
+        $this->twig = $twig;
+    }
     /**
      * @Route("/", name="stock")
      * @return Response
      */
     public function index(): Response
     {
-        return $this->render('stock/index.html.twig', [
+        return $this->twig->render('stock/index.html.twig', [
             'controller_name' => 'StockController',
         ]);
     }
@@ -35,7 +41,7 @@ class StockController extends AbstractController
             echo "111";
         }
         
-        return $this->render('stock/import.html.twig', [
+        return $this->twig->render('stock/import.html.twig', [
             'controller_name' => 'StockController',
         ]);
     }
@@ -47,7 +53,7 @@ class StockController extends AbstractController
      */
     public function show(StockManagerRepository $repo): Response
     {
-        return $this->render('stock/show.html.twig', [
+        return $this->twig->render('stock/show.html.twig', [
             'controller_name'   => 'StockController',
             'stock'             => $repo->findAll(),
         ]);
@@ -73,7 +79,7 @@ class StockController extends AbstractController
             return $this->redirect($this->generateUrl('stock'));
         }
         
-        return $this->render('stock/add.html.twig', [
+        return $this->twig->render('stock/add.html.twig', [
             'controller_name'   => 'StockController',
             'form'              => $form->createView()
         ]);
