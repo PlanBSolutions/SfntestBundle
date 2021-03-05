@@ -1,15 +1,15 @@
 <?php
 
-namespace App\Planb\SfntestBundle\Controller;
+namespace Planb\SfntestBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Request;
-use App\Planb\SfntestBundle\Repository\StockManagerRepository;
-use App\Planb\SfntestBundle\Entity\StockManager;
-use App\Planb\SfntestBundle\Form\StockItemType;
-use App\Planb\SfntestBundle\Services\StockManagerService;
+use Planb\SfntestBundle\Repository\StockManagerRepository;
+use Planb\SfntestBundle\Entity\StockManager;
+use Planb\SfntestBundle\Form\StockItemType;
+use Planb\SfntestBundle\Services\StockManagerService;
 
 class StockController extends AbstractController
 {
