@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Planb\SfntestBundle\Services;
+namespace Planb\SfntestBundle\Services;
 
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use App\Planb\SfntestBundle\Entity\StockManager;
-use App\Planb\SfntestBundle\Message\LowStockNotitication;
+use Planb\SfntestBundle\Entity\StockManager;
+use Planb\SfntestBundle\Message\LowStockNotitication;
 
 class StockManagerService
 {
