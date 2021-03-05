@@ -1,8 +1,9 @@
 {
-	"name": "planb/sfntest-bundle",
-	"description": "Test Bundle for Studio49",
-	"type": "symfony-bundle",
-	"minimum-stability":"dev",
+    "name": "planb/sfntest-bundle",
+    "description": "Test Bundle for Studio49",
+    "type": "symfony-bundle",
+    "minimum-stability":"dev",
+    "versio":"0.1",
     "authors": [
         {
             "name": "Philipp Janke",
