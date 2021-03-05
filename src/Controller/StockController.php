@@ -25,22 +25,6 @@ class StockController extends AbstractController
     }
     
     /**
-     * @Route("/import", name="stock.import")
-     * @param Request $request
-     * @return Response
-     */
-    public function import(Request $request): Response
-    {
-        if ($request->get('uploadcsv')) {
-            echo "111";
-        }
-        
-        return $this->render('stock/import.html.twig', [
-            'controller_name' => 'StockController',
-        ]);
-    }
-    
-    /**
      * @Route("/show", name="stock.show")
      * @param StockManagerRepository $repo
      * @return Response
