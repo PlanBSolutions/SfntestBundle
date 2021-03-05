@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Planb\SfntestBundle\Entity;
+namespace Planb\SfntestBundle\Entity;
 
-use App\Planb\SfntestBundle\Repository\StockManagerRepository;
+use Planb\SfntestBundle\Repository\StockManagerRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
