@@ -10,6 +10,7 @@ use Planb\SfntestBundle\Repository\StockManagerRepository;
 use Planb\SfntestBundle\Entity\StockManager;
 use Planb\SfntestBundle\Form\StockItemType;
 use Planb\SfntestBundle\Services\StockManagerService;
+use Twig\Environment;
 
 class StockController
 {
