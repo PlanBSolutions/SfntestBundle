@@ -1,5 +1,5 @@
 {
-    "name": "planb/sfntest-bundle",
+    "name": "planb/SfntestBundle",
     "description": "Test Bundle for Studio49",
     "type": "symfony-bundle",
     "minimum-stability":"dev",
