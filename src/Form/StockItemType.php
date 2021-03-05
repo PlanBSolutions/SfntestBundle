@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Planb\SfntestBundle\Form;
+namespace Planb\SfntestBundle\Form;
 
-use App\Planb\SfntestBundle\Entity\StockManager;
+use Planb\SfntestBundle\Entity\StockManager;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
