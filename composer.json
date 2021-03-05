@@ -9,7 +9,7 @@
             "name": "Philipp Janke",
             "email": "philipp.janke@planb.solutions"
         }
-    ]
+    ],
     "autoload": {
         "psr-4": {
             "Planb\\SfntestBundle\\": "src/"
