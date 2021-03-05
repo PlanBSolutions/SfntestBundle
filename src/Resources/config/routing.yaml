@@ -1,0 +1,9 @@
+stock:
+    path: /
+    controller: Planb\SfntestBundle\Controller\StockController::index
+stock.show:
+    path: /show
+    controller: Planb\SfntestBundle\Controller\StockController::show
+stock.add:
+    path: /add
+    controller: Planb\SfntestBundle\Controller\StockController::add
