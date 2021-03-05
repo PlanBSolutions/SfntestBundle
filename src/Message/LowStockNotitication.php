@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Planb\SfntestBundle\Message;
+namespace Planb\SfntestBundle\Message;
 
 class LowStockNotitication
 {
