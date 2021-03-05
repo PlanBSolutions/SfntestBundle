@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Planb\SfntestBundle\Command;
+namespace Planb\SfntestBundle\Command;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Filesystem\Filesystem;
-use App\Planb\SfntestBundle\Entity\StockManager;
-use App\Planb\SfntestBundle\Services\StockManagerService;
+use Planb\SfntestBundle\Entity\StockManager;
+use Planb\SfntestBundle\Services\StockManagerService;
 
 class ImportStockData extends Command
 {
