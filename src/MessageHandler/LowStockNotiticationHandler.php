@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Planb\SfntestBundle\MessageHandler;
+namespace Planb\SfntestBundle\MessageHandler;
 
-use App\Planb\SfntestBundle\Message\LowStockNotitication;
+use Planb\SfntestBundle\Message\LowStockNotitication;
 use Symfony\Component\Messenger\Handler\MessageHandlerInterface;
 use Symfony\Component\Mailer\MailerInterface;
 use Symfony\Component\Mime\Email;
