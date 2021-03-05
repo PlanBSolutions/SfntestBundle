@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Planb\SfntestBundle;
+namespace Planb\SfntestBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
