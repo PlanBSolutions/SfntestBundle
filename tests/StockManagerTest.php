@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Planb\SfntestBundle\Tests;
+namespace Planb\SfntestBundle\Tests;
 
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerInterface;
