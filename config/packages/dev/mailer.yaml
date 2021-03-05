@@ -1,0 +1,8 @@
+framework:
+    mailer:
+        envelope:
+            sender: 's49test@notlive.cc'
+            recipients: ['philipp.janke@planb.solutions']
+        headers:
+            from: 'S49Test <s49test@notlive.cc>'
+            to: 'philipp.janke@planb.solutions'
