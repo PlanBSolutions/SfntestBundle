@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Planb\SfntestBundle\Repository;
+namespace Planb\SfntestBundle\Repository;
 
-use App\Planb\SfntestBundle\Entity\StockManager;
+use Planb\SfntestBundle\Entity\StockManager;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
