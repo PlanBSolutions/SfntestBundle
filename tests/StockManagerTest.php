@@ -5,9 +5,9 @@ namespace Planb\SfntestBundle\Tests;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Doctrine\DBAL\Exception\NotNullConstraintViolationException;
-#use App\Entity\StockManager;
-#use App\Repository\StockManagerRepository;
-#use App\Services\StockManagerService;
+use Planb\SfntestBundle\Entity\StockManager;
+use Planb\SfntestBundle\Repository\StockManagerRepository;
+use Planb\SfntestBundle\Services\StockManagerService;
 
 class StockManagerTest extends TestCase
 {
